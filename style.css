@@ -1,0 +1,57 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.pagrindas{
+    background-color: silver;
+    padding: 50px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.antraste{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.remelis{
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.vardas{
+    text-transform: uppercase;
+}
+
+.miestas{
+    font-style: italic;
+}
+img{
+    border-radius: 50px;
+    grid-row: span 2;
+}
+.dalis1{
+    background-color: rgb(136, 136, 217);
+    /* stulpelis užims du stulpelis */
+    grid-column: span 2;
+}
+
+.dalis2{
+    background-color: rgba(135, 129, 156);
+}
+
+.dalis3{
+    background-color: rgb(255, 255, 255);
+    grid-row: span 2;
+}
+
+.dalis4{
+    background-color: rgb(255, 255, 255);
+}
+
+.dalis5{
+    background-color: rgb(114, 153, 226);
+    grid-column: span 2;
+}
